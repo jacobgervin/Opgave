@@ -1,0 +1,334 @@
+.logoimg1{
+  width: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+
+
+.consek{
+  margin-top: 130px;
+}
+.lvpsektion{
+  margin-top: 50px;
+  padding: 5px;
+}
+
+.footersektion{
+  margin: 30px;
+}
+
+.footerline{
+    border-top: 1px solid #d3d3d3;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+.footertekst{
+  font-size: 13px;
+  text-align: -webkit-center;
+}
+
+.vossektion{
+  margin-top: 50px;
+  padding: 5px;
+}
+.besektion{
+  padding: 5px;
+}
+
+.beline{
+    height: 3px;
+    background: #FCC30B;
+    width: 90%;
+    margin-bottom: 30px;
+    margin-top: -5px;
+}
+
+.lvpline{
+  height: 3px;
+  background: #56C02B;
+  width: 63%;
+  margin-bottom: 30px;
+  margin-top: -5px;
+}
+
+.vosline{
+  height: 3px;
+  background: #26BDE2;
+  width: 78%;
+  margin-bottom: 30px;
+  margin-top: -5px;
+}
+
+.beknap{
+  height: 50px;
+  width: 200px;
+  --border-radius: 200px;
+  text-transform: none;
+
+}
+
+.lvpknap{
+  height: 50px;
+  width: 200px;
+  --border-radius: 200px;
+  text-transform: none;
+}
+
+.vosknap{
+  height: 50px;
+  width: 200px;
+  --border-radius: 200px;
+  text-transform: none;
+}
+
+.beknaptekst{
+  margin: 10px!important;
+  font-size: 12px;
+  color: white;
+}
+
+.lvpknaptekst{
+  margin: 10px!important;
+  font-size: 12px;
+}
+
+.vosknaptekst{
+  margin: 10px!important;
+  font-size: 12px;
+}
+
+
+.bebillede{
+  height: 300px;
+  width: 300px;
+}
+.lvpbillede{
+  height: 300px;
+  width: 300px;
+}
+.vosbillede{
+  height: 300px;
+  width: 300px;
+}
+
+.heroover{
+    font-size: 31px;
+    line-height: 1.2;
+}
+
+.herotekst{
+  font-size: 15px;
+  line-height: 2;
+}
+
+.sektekst{
+  font-size: 15px;
+}
+
+.hero2{
+  display: none;
+}
+
+.hero1billede{
+  height: 330px;
+  width: 330px;
+  margin-left: 20px;
+}
+
+.besek{
+  text-align: -webkit-center;
+}
+
+.lvpsek{
+  text-align: -webkit-center;
+}
+
+.vossek{
+  text-align: -webkit-center;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .lvpsektion{
+    padding: 40px;
+    margin-top: 0;
+  }
+  
+  .vossektion{
+    padding: 40px;
+    margin-top: 0;
+
+  }
+
+  .besektion{
+    padding: 40px;
+    margin-top: -30px;
+
+  }
+  .beline{
+    width: 45%;
+  }
+  .lvpline{
+    width: 31%;
+  }
+  .vosline{
+    width: 38%;
+  }
+
+  .bebillede{
+    height: 350px;
+    width: 350px;
+  }
+  .lvpbillede{
+    height: 350px;
+    width: 350px;
+  }
+  .vosbillede{
+    height: 350px;
+    width: 350px;
+  }
+  .heroover{
+    width: 80%;
+    font-size: 40px;
+    line-height: 1.2;
+  }
+  .herotekst{
+    width: 55%;
+  }
+  
+  .hero2{
+    display: none;
+  }
+
+  .hero1billede{
+    height: 450px;
+    width: 450px;
+    margin-left: 135px;
+  }
+
+  .consek{
+    margin-top: 100px;
+
+  }
+
+  .footertekst{
+    font-size: 15px;
+  }
+
+  #main-content {
+    display: none;
+    display: hide;
+}
+#navbar {
+    display:block;
+}
+.logoimg1{
+  width: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  }
+}
+
+
+@media screen and (max-width: 769px) {
+  #main-content {
+      display: block;
+
+  }
+  #navbar {
+      display: none;
+  }
+}
+
+
+@media screen and (min-width: 1024px){
+  .lvpsektion{
+    padding: 0;
+    margin-top: 120px;
+   
+  }
+  
+  .vossektion{
+    padding: 0;
+    margin-top: 120px;
+  }
+
+  .besektion{
+    margin-top: 80px;
+    padding: 0;
+  }
+
+  .beline{
+    width: 49%;
+  }
+  .lvpline{
+    width: 34%;
+  }
+  .vosline{
+    width: 42%;
+  }
+  .bebillede{
+    height: 450px;
+    width: 450px;
+  }
+  .lvpbillede{
+    height: 450px;
+    width: 450px;
+  }
+  .vosbillede{
+    height: 450px;
+    width: 450px;
+  }
+  .heroover{
+    width: 55%;
+    font-size: 48px;
+  }
+  .herotekst{
+    width: 50%;
+  }
+  .consek{
+    margin-top: 200px;
+
+  }
+  .hero3{
+    display: none;
+  }
+
+  .hero2{
+    display: block;
+  }
+
+
+  .hero2billede{
+    height: 650px;
+    width: 650px;
+    margin-left: -220px;
+    margin-top: -160px;
+  }
+
+
+  .headersek{
+    margin-left: 100px;
+    align-items: center;
+  }
+
+  .links{
+    margin-left: 40px;
+    font-size: 15px;
+    margin-bottom: 35px;
+    margin-top: 35px;
+  }
+
+  .logoimg{
+    width: 65px;
+  }
+
+  
+}
+
+
+
